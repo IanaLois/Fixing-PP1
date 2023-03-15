@@ -85,29 +85,46 @@ ul li {
     margin-top: 14rem;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-flow: column;
     color: #495867;
-    padding: 10rem;
+}
+
+.section-one video {
+    width: 45vw;
+    box-shadow:-1rem 1rem 0rem #ce796b;
+    border-radius: 0.5rem;
 }
 
 .message-1,
 .message-2 {
     font-size: 5.5rem;
     width: 100%;
-    margin: 1.6rem 0;
+    margin: 3rem 0;
     text-decoration: underline #ce796b;
+}
+.message-2 {
+    margin-top: 18rem;
+    margin-bottom: 8rem;
 }
 
 .message-3,
 .message-4 {
     font-size: 2.5rem;
-    margin: 2rem 0;
+    margin: 6rem 0;
 }
 
-#meme-section {
-    margin: 5rem 0;
+.message-3 {
+    margin-top: 4rem;
+}
+
+.message-4 {
+    margin-bottom: 10rem;
+}
+
+#gif-section {
+    margin: 3rem 0 4rem 0;
 }
 
 /* Photo Slider */
@@ -173,7 +190,7 @@ ul li {
     background: #ce796b;
     padding: 1rem;
     border-radius:50%;
-    margin: 1rem 1rem;
+    margin: 3rem 1rem;
 }
 
 .active{
